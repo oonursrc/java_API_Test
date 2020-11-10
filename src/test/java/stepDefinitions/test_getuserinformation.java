@@ -9,13 +9,13 @@ import io.cucumber.java.en.When;
 import io.cucumber.junit.*;
 import restAssured.apiCalls;
 import org.apache.logging.log4j.Logger;
-import static org.testng.Assert.assertEquals;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.http.HttpStatus;
 import org.apache.logging.log4j.LogManager;
 import org.junit.runner.RunWith;
 import common.ReadConfigData;
+import static org.junit.Assert.*;
 
 
 @RunWith(Cucumber.class)

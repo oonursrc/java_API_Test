@@ -11,6 +11,6 @@ import io.cucumber.junit.*;
 		features = {"src/test/java/features/deleteuser.feature"},
 		glue = "stepDefinitions"
 		)
-public class TestRunner_deleteuser {
+public class TestRunner_c_deleteuser {
 
 }

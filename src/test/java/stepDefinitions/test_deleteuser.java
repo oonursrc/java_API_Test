@@ -8,7 +8,9 @@ import io.cucumber.java.en.When;
 import io.cucumber.junit.*;
 import restAssured.apiCalls;
 import org.apache.logging.log4j.Logger;
-import static org.testng.Assert.assertEquals;
+
+import static org.junit.Assert.*;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.http.HttpStatus;
